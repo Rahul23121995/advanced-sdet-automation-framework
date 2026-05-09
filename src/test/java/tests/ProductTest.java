@@ -2,6 +2,7 @@ package tests;
 
 import base.BaseTest;
 import org.testng.annotations.Test;
+import base.BaseTest;
 import pages.LoginPage;
 import pages.ProductsPage;
 
