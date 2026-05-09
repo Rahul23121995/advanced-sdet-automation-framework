@@ -1,7 +1,54 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.class
+
+# Maven
 target/
-.logs/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Test Reports and Screenshots
+test-output/
+extent-reports/
 reports/
 screenshots/
-.settings/
-.project
-.classpath
+logs/
+allure-results/
+allure-report/
+
+# Gradle
+.gradle/
+build/
+
+# Jenkins
+.jenkins/
+workspace/
+
+# Docker
+docker-compose.override.yml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test Coverage
+.jacoco/
+*.exec
+coverage.xml
